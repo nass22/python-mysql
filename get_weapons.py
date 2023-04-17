@@ -3,8 +3,8 @@ from mysql.connector import connect, Error
 try:
     with connect(
         host="localhost",
-        user="root",
-        password="admin",
+        user="username",
+        password="password",
         database="ranked",
     ) as connection:
         with connection.cursor() as cursor:

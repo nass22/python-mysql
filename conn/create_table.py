@@ -4,7 +4,7 @@ try:
     with connect(
         host="localhost",
         user="root",
-        password="admin",
+        password="username",
         database="ranked",
     ) as connection:
         create_table_weapons_query = """
